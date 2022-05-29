@@ -16,8 +16,8 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block PURPLE_GEM_BLOCK = registerBlock("purple_gem_block",
-            new Block(FabricBlockSettings.of(Material.METAL)
-                    .strength(6f)
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
                     .requiresTool()),
             ModItemGroup.SSI2_ITEMGROUP);
 
