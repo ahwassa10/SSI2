@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ssi2",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Shrapnitek Semi-Industrial 2",
+  "description": "Not another tech mod",
   "authors": [
-    "Me!"
+    "ahwassa10"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://shrapnitek.com/",
+    "sources": "https://github.com/ahwassa10/SSI2"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.shrapnitek.ssi2.SSI2"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "ssi2.mixins.json"
   ],
 
   "depends": {
