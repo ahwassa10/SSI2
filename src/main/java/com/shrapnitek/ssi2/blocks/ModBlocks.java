@@ -1,6 +1,7 @@
 package com.shrapnitek.ssi2.blocks;
 
 import com.shrapnitek.ssi2.SSI2;
+import com.shrapnitek.ssi2.items.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -18,7 +19,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL)
                     .strength(6f)
                     .requiresTool()),
-            ItemGroup.MISC);
+            ModItemGroup.SSI2_ITEMGROUP);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

@@ -1,5 +1,7 @@
 {
   "item.ssi2.purple_gem": "Purple Gem",
 
-  "block.ssi2.purple_gem_block": "Purple Gem Block"
+  "block.ssi2.purple_gem_block": "Purple Gem Block",
+
+  "itemGroup.ssi2.ssi2_itemgroup": "Shrapnitek Semi-Industrial 2"
 }

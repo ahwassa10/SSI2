@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssi2:purple_gem_block"
+    }
+  ],
+  "result": {
+    "item": "ssi2:purple_gem",
+    "count": 9
+  }
+}
