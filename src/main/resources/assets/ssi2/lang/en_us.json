@@ -1,7 +1,9 @@
 {
-  "item.ssi2.purple_gem": "Purple Gem",
-
   "block.ssi2.purple_gem_block": "Purple Gem Block",
+
+  "item.ssi2.purple_gem": "Purple Gem",
+  "item.ssi2.metal_detector": "Metal Detector",
+  "item.ssi2.metal_detector.no_valuable_found": "No valuable ores found",
 
   "itemGroup.ssi2.ssi2_itemgroup": "Shrapnitek Semi-Industrial 2"
 }
