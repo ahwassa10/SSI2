@@ -1,6 +1,7 @@
 package com.shrapnitek.ssi2.blocks;
 
 import com.shrapnitek.ssi2.SSI2;
+import com.shrapnitek.ssi2.blocks.custom.TrapBlock;
 import com.shrapnitek.ssi2.items.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -17,6 +18,12 @@ public class ModBlocks {
 
     public static final Block PURPLE_GEM_BLOCK = registerBlock("purple_gem_block",
             new Block(FabricBlockSettings.of(Material.STONE)
+                    .strength(4.0f)
+                    .requiresTool()),
+            ModItemGroup.SSI2_ITEMGROUP);
+
+    public static final Block TRAP_BLOCK = registerBlock("trap_block",
+            new TrapBlock(FabricBlockSettings.of(Material.STONE)
                     .strength(4.0f)
                     .requiresTool()),
             ModItemGroup.SSI2_ITEMGROUP);
